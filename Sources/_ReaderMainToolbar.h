@@ -25,6 +25,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIXToolbarView.h"
+
 @class ReaderMainToolbar;
 @class ReaderDocument;
 
@@ -40,7 +42,7 @@
 
 @end
 
-@interface ReaderMainToolbar : UIView
+@interface ReaderMainToolbar : UIXToolbarView
 
 @property (nonatomic, unsafe_unretained, readwrite) id <ReaderMainToolbarDelegate> delegate;
 
