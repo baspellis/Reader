@@ -41,6 +41,12 @@
 
 @property (nonatomic, weak, readwrite) id <ReaderViewControllerDelegate> delegate;
 
+#pragma mark -
+#pragma mark Initialization
 - (id)initWithReaderDocument:(ReaderDocument *)object;
+
+#pragma mark -
+#pragma mark Convenience Methods
+- (void)showDocumentPage:(NSInteger)page;
 
 @end
